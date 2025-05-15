@@ -16,7 +16,7 @@ public class CameraController : MonoBehaviour
     public float dragSpeed = 2f;
     private Vector3 dragOrigin;
 
-    private Vector2 worldSize;
+    [HideInInspector] public Vector2 worldSize;
 
     void Start()
     {
